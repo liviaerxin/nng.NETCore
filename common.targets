@@ -20,9 +20,9 @@
   </PropertyGroup>
 
   <PropertyGroup>
-    <Authors>Subor</Authors>
+    <Authors>Jeikabu</Authors>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <Owners>Subor</Owners>
+    <Owners>Jeikabu</Owners>
     <PackageProjectUrl>https://github.com/jeikabu/nng.NETCore</PackageProjectUrl>
     <Summary>.NET Core bindings to nng</Summary>
     <PackageTags>nng csnng</PackageTags>

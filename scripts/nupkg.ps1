@@ -17,7 +17,7 @@ if (-not $(Test-Path $Nuget -PathType Leaf) -and -not $(Get-Command nuget -Error
 
 dotnet pack -c Release
 
-$packages = "./bin/Release/Subor.nng.NETCore.$Version.nupkg", "./bin/Release/Subor.nng.NETCore.Shared.$Version.nupkg"
+$packages = "./bin/Release/nng.NET.$Version.nupkg", "./bin/Release/nng.NET.Shared.$Version.nupkg"
 
 foreach ($pkg in $packages) {
     & $Nuget sign $pkg -Timestamper http://sha256timestamp.ws.symantec.com/sha256/timestamp -CertificatePath $Pfx
